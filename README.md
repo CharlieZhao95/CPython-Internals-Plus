@@ -1,7 +1,7 @@
 # 介绍
 
 微软独立研究员Anthony Shaw的《CPython Internals》中文版。
-![](<../.gitbook/assets/首页.png>)
+![](<.gitbook/assets/首页.png>)
 
 # gitbook入门
 参见[GitBook 简明教程](https://www.chengweiyang.cn/gitbook/index.html)。
