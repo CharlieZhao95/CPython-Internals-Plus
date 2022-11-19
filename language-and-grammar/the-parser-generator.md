@@ -10,7 +10,7 @@
 
 <figure><img src="../.gitbook/assets/图5.4.1 pgen执行过程.png" alt=""><figcaption></figcaption></figure>
 
-其通常从构建脚本执行，而不是直接被执行。
+其通常从构建脚本执行，而不是被直接执行。
 
 DFA 没有一个可视化输出，但[作者从 CPython 拉取了一个分支](https://github.com/tonybaloney/cpython/tree/dot\_pgen)并添加了有向图输出功能。`decorator` 语法在 Grammar/Grammar 中被定义为：
 
