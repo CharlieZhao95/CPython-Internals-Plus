@@ -4,7 +4,7 @@
 
 解析器把 DFAs 用作解析表。这项技术在[斯坦福大学形成](http://infolab.stanford.edu/\~ullman/dragon/slides1.pdf)并在19世纪80年代被开发出来，就在 Python 语言出现不久之前。CPython 的解析器生成器 (`pgen`) 是 CPython 项目独有的。
 
-`pgen` 应用在 Python 3.8 中被改写，由 C语言改写为 Python 语言来实现，模块路径为：Parser/pgen/pgen.py。
+在 Python 3.8 中，`pgen` 应用的实现由 C 语言改写为 Python 语言，模块路径为：Parser/pgen/pgen.py。
 
 此模块的执行方式如下所示：
 
@@ -24,6 +24,6 @@ DFA 没有一个可视化输出，但[作者从 CPython 拉取了一个分支](h
 
 NFA 和 DFA 图仅对调试复杂语法的设计有用。
 
-我们将用铁路图取代 DFA 和 NFA 图来展示语法。举一个例子来说明，下图展示的是`decorator` 语句可以采用的路径。
+我们将用铁路图取代 DFA 和 NFA 图来展示语法。例如，下图展示的是`decorator` 语句可以采用的路径。
 
 <figure><img src="../.gitbook/assets/图5.4.4 装饰器语句的铁路图.png" alt=""><figcaption></figcaption></figure>
