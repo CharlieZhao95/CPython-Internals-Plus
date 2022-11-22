@@ -6,7 +6,7 @@
 
 <figure><img src="../.gitbook/assets/图5.5.2 pass铁路图.png" alt=""><figcaption></figcaption></figure>
 
-通过添加一个选项、`|`以及 `proceed` 改变这行定义，让其能接受终端的`paas` 或者`proceed` 作为关键字。
+通过添加一个`|`以及 `proceed` 改变这行定义，让其能接受终端的`paas` 或者`proceed` 作为关键字。
 
 <figure><img src="../.gitbook/assets/图5.5.3 pass修改后的铁路图.png" alt=""><figcaption></figcaption></figure>
 
@@ -22,11 +22,11 @@
 
 你应该能在输出上看到新的 `include/graminit.h` 和 `Python/graminit.c` 文件已经重新生成。
 
-对于重新生成的解析器表，当你使用上一章节使用过的编译过程重新编译 CPython，其将使用新的语法。
+当你基于重新生成的解析器表，并使用上一章节使用过的编译过程重新编译 CPython，其将使用新的语法。
 
 如果你的代码编译成功，你就可以使用新的 CPython 二进制文件并启动一个交互式解释器。
 
-在交互式解释器中，你可以尝试定义一个函数。用你编译进 Python 语法中的`proceed` 关键字来替代 `pass` 语句。
+在交互式解释器中，你可以尝试定义一个函数。用你编译进 Python 语法中的 `proceed` 关键字来替代 `pass` 语句。
 
 <figure><img src="../.gitbook/assets/图5.5.6 使用proceed.png" alt=""><figcaption></figcaption></figure>
 
@@ -58,7 +58,7 @@
 
 <figure><img src="../.gitbook/assets/图5.5.8 单词二.png" alt=""><figcaption></figcaption></figure>
 
-与语法文件一样， 如果你修改了 `Grammar/Token` 文件，你就需要重新运行 `pgen` 。
+与语法文件一样，如果你修改了 `Grammar/Token` 文件，你就需要重新运行 `pgen`。
 
 你可以使用 CPython 的 tokenize 模块查看单词符号的运行情况。
 
@@ -91,7 +91,7 @@ CPython 源码中有两种词法分析器。本章节演示的是用 Python 语�
 
 一个最佳实践是在 Python 源文件末尾中保留一个空行。如果你忘记这样去做，CPython 会为你自动补上。
 
-`tokeinze` 模块是用纯 Python 语言写的，相关代码归档于`Lib/tokenize.py` 中。
+`tokeinze` 模块是用纯 Python 语言写的，相关代码归档于 `Lib/tokenize.py` 中。
 
 你可以使用 -d 标志来执行 Python 应用来查看 C 语言版本词法分析器的详细输出。使用之前创建的 `test_tokens.py` 脚本，用如下命令执行：
 
