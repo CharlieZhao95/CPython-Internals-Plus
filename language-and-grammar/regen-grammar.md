@@ -16,7 +16,7 @@
 
 <figure><img src="../.gitbook/assets/图5.5.2 重新生成语法 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-在 Windows 上，可以在 `PCBuild` 目录中取出命令并使用 --regen 标志来运行 build.bat。
+在 Windows 上，可以使用 --regen 标志来运行 `PCBuild` 目录中的build.bat。
 
 <figure><img src="../.gitbook/assets/图5.5.5 Windows下重新生成语法.png" alt=""><figcaption></figcaption></figure>
 
