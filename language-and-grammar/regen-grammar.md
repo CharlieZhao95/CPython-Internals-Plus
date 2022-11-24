@@ -14,7 +14,7 @@
 
 在 macOS 和 Linux 上，可以运行 `make regen-grammar` 来重新生成语法。
 
-<figure><img src="../.gitbook/assets/图5.5.2 重新生成语法 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/图5.5.2 重新生成语法 (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 在 Windows 上，可以使用 --regen 标志来运行 `PCBuild` 目录中的build.bat。
 
@@ -49,8 +49,6 @@
 
 `Grammar/Tokens` 文件是 Python 3.8 的新特性。
 {% endhint %}
-
-
 
 比如，左括号 被称为 `LPAR` ，而顿号被称为 `SEMI` 。你会在本书后半部分看到这些单词符号。
 
@@ -118,11 +116,11 @@ $ make -j2 -s
 
 或者对于 Windows：
 
-&#x20;\> git checkout -- Grammar/Grammar
+\> git checkout -- Grammar/Grammar
 
-&#x20;\> build.bat --regen
+\> build.bat --regen
 
-&#x20;\> build.bat -t CleanAll
+\> build.bat -t CleanAll
 
-&#x20;\> build.bat -t Build
+\> build.bat -t Build
 {% endhint %}
