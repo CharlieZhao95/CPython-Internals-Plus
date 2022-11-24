@@ -1,8 +1,8 @@
 # Table of contents
 
 * [一、简介](README.md)
-  * [1.1 如何使用此书](use-this-book/README.md)
-  * [1.2 额外材料和学习资料](learning-resources/README.md)
+  * [1.1 如何使用此书](一、introduction/1.1-use-this-book.md)
+  * [1.2 额外材料和学习资料](一、introduction/1.2-learning-resources.md)
 * [二、获取 CPython 源码](source-code/README.md)
 * [三、准备你的开发环境](DE/README.md)
   * [3.1 选IDE还是编辑器?](DE/DE-choice.md)
