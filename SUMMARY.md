@@ -26,7 +26,7 @@
   * [5.3 使用解析器生成器](language-and-grammar/using-the-parser-generator.md)
   * [5.4 解析器生成器](language-and-grammar/the-parser-generator.md)
   * [5.5 重新生成语法](language-and-grammar/regen-grammar.md)
-  * [5.6 一个更复杂的示例](language-and-grammar/a-example.md)
+  * [5.6 一个更复杂的示例](language-and-grammar/an-example.md)
   * [5.7 总结](language-and-grammar/conclusion.md)
 * [六、配置和输入](configuration-and-input/README.md)
   * [6.1 配置状态](configuration-and-input/configuration-state.md)
