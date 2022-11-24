@@ -1,7 +1,7 @@
 # CPython Internals
 
 ## 书籍介绍
-微软独立研究员Anthony Shaw的《CPython Internals》中文版。
+微软独立研究员Anthony Shaw的《CPython Internals》中文版。  
 ![Cpython Internals](<.gitbook/assets/首页.png>)
 
 ## 翻译进展（众筹，欢迎大家一起贡献）
