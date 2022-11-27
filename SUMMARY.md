@@ -2,7 +2,7 @@
 
 * [一、简介](README.md)
   * [1.1 如何使用此书](1-introduction/1.1-use-this-book.md)
-  * [1.2 额外材料和学习资料](readme/1.2-ewai-cai-liao-he-xue-xi-zi-liao.md)
+  * [1.2 额外材料和学习资料](1-introduction/1.2-learning-resource.md)
 * [二、获取 CPython 源码](2-source-code/README.md)
 * [三、准备你的开发环境](3-DE/README.md)
   * [3.1 选IDE还是编辑器?](3-DE/3.1-DE-choice.md)
