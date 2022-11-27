@@ -10,6 +10,9 @@
 ## 翻译规范
 参见[翻译规范](https://github.com/shihai1991/CPython-Internals/blob/main/translate-of-conduct.md)
 
+## 英文版书籍
+[《Anthony Shaw - CPython Internals》](<.gitbook/book/Anthony Shaw - CPython Internals.pdf>)
+
 ## gitbook入门
 参见[GitBook 简明教程](https://www.chengweiyang.cn/gitbook/index.html)。
 
