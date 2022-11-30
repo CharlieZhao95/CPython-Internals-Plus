@@ -33,7 +33,7 @@
   * [6.2 构建配置](6-configuration-and-input/6.2-build-configuration.md)
   * [6.3 从输入构建模块](6-configuration-and-input/6.3-building-a-module-from-input.md)
   * [6.4 总结](6-configuration-and-input/6.4-conclusion.md)
-* [七、语法树解析](7-syntax-tree/README.md)
+* [七、语法树词法分析和解析](7-syntax-tree/README.md)
   * [7.1 具象语法树生成器](7-syntax-tree/7.1-concrete-syntax-tree-generation.md)
   * [7.2 CPython 解析器-词法分析器](7-syntax-tree/7.2-cpython-parser-tokenizer.md)
   * [7.3 抽象语法树](7-syntax-tree/7.3-abstract-syntax-trees.md)
