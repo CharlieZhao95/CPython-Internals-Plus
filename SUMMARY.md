@@ -38,7 +38,7 @@
   * [7.2 CPython 解析器-词法分析器](7-syntax-tree/7.2-cpython-parser-tokenizer.md)
   * [7.3 抽象语法树](7-syntax-tree/7.3-abstract-syntax-trees.md)
   * [7.4 要记住的术语](7-syntax-tree/7.4-import-terms-to-remember.md)
-  * [7.5 一个示例：添加几乎相等比较运算法](7-syntax-tree/7.5-an-example.md)
+  * [7.5 一个示例：添加一个约等于比较运算法](7-syntax-tree/7.5-an-example.md)
   * [7.6 总结](7-syntax-tree/7.6-conclusion.md)
 * [八、编译器](8-compiler/README.md)
 * [九、求值循环](9-evalutaion-loop/README.md)
