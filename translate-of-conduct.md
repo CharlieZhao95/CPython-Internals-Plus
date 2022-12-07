@@ -85,4 +85,6 @@ Content.
 
 
 ## 需要翻译的术语
-暂无
+* Parse Tree：语法分析树，也可以简称为语法树、分析树；
+* AST(Abstract Syntax Tree)：抽象语法树；
+* Tokenizer：词法分析器；
