@@ -51,6 +51,7 @@
 * [十、内存管理](10-memory-management/README.md)
   * [10.1 C 中的内存分配](10-memory-management/10.1-memory-allocation-in-c.md)
   * [10.2 Python 内存管理系统设计](10-memory-management/10.2-design-of-the-python-memory-management-system.md)
+  * [10.3 CPython 内存分配器](10-memory-management/10.3-cpython-memory-allocator.md)
 * [十一、并行和并发](11-parall-concur/README.md)
 * [十二、对象和类型](12-objects-types/README.md)
 * [十三、标准库](13-stdlib/README.md)
